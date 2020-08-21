@@ -54,5 +54,5 @@ h6, small {
 }
 
 p {
-  margin-bottom: var(--gutter);
+  margin: 0 0 var(--gutter) 0;
 }
