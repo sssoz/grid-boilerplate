@@ -17,6 +17,14 @@
   <link rel="stylesheet" href="css/new-typescale.css">
 
   <meta name="theme-color" content="#282624">
+
+  <!-- Temp. styles for this example  -->
+  <style>
+    p {
+      padding: 1rem;
+      background: aquamarine;
+    }
+  </style>
 </head>
 
 <body>
@@ -97,6 +105,23 @@
 		</section>
 
     <section>
+			<h3>Variation of four-col: ½ + ½</h3>
+      <div class="row">
+        <div class="col col--2of4">
+          <p>
+            2-(5-Chloro-2-phenoxyphenyl)hydrazine was converted to corresponding 3H-indole by Fischer method utilizing the isopropyl methyl ketone in acetic acid. The reaction of 3H-indole with Vilsmeier-Haack reagent furnished aminomethylene malonaldehyde in excellent yield while the reactions of malonaldehyde with hydrazine, arylhydrazines, amines, cyanoacetamide and hydroxylamine hydrochloride, led to the corresponding pyrazole derivatives, enamines, cyanopyridone, and cyanoacetamide derivatives respectively.
+          </p>
+        </div>
+
+        <div class="col col--2of4">
+          <p>
+            2-(5-Chloro-2-phenoxyphenyl)hydrazine was converted to corresponding 3H-indole by Fischer method utilizing the isopropyl methyl ketone in acetic acid.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section>
 			<h3>Variation of four-col: ¾ + ¼</h3>
       <div class="row">
         <div class="col col--3of4">
@@ -159,10 +184,27 @@
 			</div>
 		</section>
 
+    <section>
+			<h3>Variation of six-col: ½ + ½</h3>
+      <div class="row">
+        <div class="col col--3of6">
+          <p>
+            2-(5-Chloro-2-phenoxyphenyl)hydrazine was converted to corresponding 3H-indole by Fischer method utilizing the isopropyl methyl ketone in acetic acid.
+          </p>
+        </div>
+
+        <div class="col col--3of6">
+          <p>
+            2-(5-Chloro-2-phenoxyphenyl)hydrazine was converted to corresponding 3H-indole by Fischer method utilizing the isopropyl methyl ketone in acetic acid.
+          </p>
+        </div>
+      </div>
+    </section>
+
 		<section>
 			<h3>Variation of six-col: ⅓ + ⅔</h3>
       <div class="row">
-        <div class="col col--1of3">
+        <div class="col col--2of6">
           <p>
             <code>col--1of3</code> and <code>col--2of6</code> are interchangeable.
           </p>
@@ -171,7 +213,7 @@
           </p>
         </div>
 
-        <div class="col col--2of3">
+        <div class="col col--4of6">
           <p>
             <code>col--2of3</code> and <code>col--4of6</code> are interchangeable.
           </p>
@@ -204,8 +246,12 @@
   <hr/>
 
 	<footer class="row">
-    <p class="col col--5of6"><small>This is the footer! We put credits & copyright & stuff here. The end.</small></p>
-    <p class="col col--1of6"><small>2019</small></p>
+    <div class="col col--5of6">
+      <p><small>This is the footer! We put credits & copyright & stuff here. The end.</small></p>
+    </div>
+    <div class="col col--1of6">
+      <p><small>2019</small></p>
+    </div>
 	</footer>
 
 </body>
