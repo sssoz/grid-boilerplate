@@ -1,0 +1,211 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+	<meta charset="utf-8">
+	<title>New flex grid</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="manifest" href="site.webmanifest">
+	<link rel="apple-touch-icon" href="icon.png">
+
+		<link rel="stylesheet" href="css/normalize.css">
+
+		<link rel="stylesheet" href="css/new-grid.css">
+
+	<meta name="theme-color" content="#282624">
+</head>
+
+<body>
+	<!--[if IE]>
+	<p class="browserupgrade">You are using an outdated browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+	<![endif]-->
+
+	<header class="row">
+    <div class="col col--1of2">This is the header.</div>
+    <nav class="col col--1of2">This is the header’s nav.</nav>
+	</header>
+
+	<main>
+		<h1>New flexbox grid examples</h1>
+
+		<section>
+			<h2>Single column of text: takes up half of the page</h2>
+
+			<div class="row">
+				<div class="col col--1of2">
+					<p>
+						This is for a single column of text. Because our container is so wide, we want to limit it to half the page for better readability, using the <code>col--1of2</code> modifier.
+					</p>
+          <p>
+            <code>col--1of2</code>, <code>col--2of4</code>, and <code>col--3of6</code> are interchangeable.
+          </p>
+					<p>
+						2-(5-Chloro-2-phenoxyphenyl)hydrazine was converted to corresponding 3H-indole by Fischer method utilizing the isopropyl methyl ketone in acetic acid. The reaction of 3H-indole with Vilsmeier-Haack reagent furnished aminomethylene malonaldehyde in excellent yield while the reactions of malonaldehyde with hydrazine, arylhydrazines, amines, cyanoacetamide and hydroxylamine hydrochloride, led to the corresponding pyrazole derivatives, enamines, cyanopyridone, and cyanoacetamide derivatives respectively.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<hr/>
+
+    <h2>Four-column grid</h2>
+
+		<section>
+			<h3>Four columns of equal width</h3>
+
+			<div class="row">
+				<div class="col col--1of4">
+					<p>
+						This is content split into four columns.
+					</p>
+				</div>
+
+				<div class="col col--1of4">
+					<p>
+						This is content split into four columns.
+					</p>
+				</div>
+
+				<div class="col col--1of4">
+					<p>
+						This is content split into four columns.
+					</p>
+				</div>
+
+				<div class="col col--1of4">
+					<p>
+						This is content split into four columns.
+					</p>
+				</div>
+
+				<div class="col col--1of4">
+					<p>
+						Another paragraph: it wraps.
+					</p>
+				</div>
+
+				<div class="col col--1of4">
+					<p>
+						This is the last paragraph.
+					</p>
+				</div>
+			</div>
+		</section>
+
+    <section>
+			<h3>Variation of four-col: ¾ + ¼</h3>
+      <div class="row">
+        <div class="col col--3of4">
+          <p>
+            2-(5-Chloro-2-phenoxyphenyl)hydrazine was converted to corresponding 3H-indole by Fischer method utilizing the isopropyl methyl ketone in acetic acid. The reaction of 3H-indole with Vilsmeier-Haack reagent furnished aminomethylene malonaldehyde in excellent yield while the reactions of malonaldehyde with hydrazine, arylhydrazines, amines, cyanoacetamide and hydroxylamine hydrochloride, led to the corresponding pyrazole derivatives, enamines, cyanopyridone, and cyanoacetamide derivatives respectively.
+          </p>
+        </div>
+
+        <div class="col col--1of4">
+          <p>
+            2-(5-Chloro-2-phenoxyphenyl)hydrazine was converted to corresponding 3H-indole by Fischer method utilizing the isopropyl methyl ketone in acetic acid.
+          </p>
+        </div>
+      </div>
+    </section>
+
+		<hr/>
+
+    <h2>Six-column grid</h2>
+
+		<section>
+			<h3>Six columns of equal width</h3>
+
+			<div class="row">
+				<div class="col col--1of6">
+					<p>
+						This is just a sixth of the content.
+					</p>
+				</div>
+
+        <div class="col col--1of6">
+					<p>
+						And this another sixth of the content.
+					</p>
+				</div>
+
+        <div class="col col--1of6">
+					<p>
+						And this another sixth of the content.
+					</p>
+				</div>
+
+        <div class="col col--1of6">
+					<p>
+						There’s going to be a bit more content after this one.
+					</p>
+				</div>
+
+        <div class="col col--1of6">
+          <p>
+            2-(5-Chloro-2-phenoxyphenyl) hydrazine was converted to corresponding 3H-indole by Fischer method utilizing the isopropyl methyl ketone in acetic acid.
+          </p>
+        </div>
+
+        <div class="col col--1of6">
+          <p>
+            The reaction of 3H-indole with Vilsmeier-Haack reagent furnished aminomethylene malonaldehyde in excellent yield while the reactions of malonaldehyde with hydrazine, arylhydrazines, amines, cyanoacetamide and hydroxylamine hydrochloride, led to the corresponding pyrazole derivatives, enamines, cyanopyridone, and cyanoacetamide derivatives respectively.
+          </p>
+        </div>
+			</div>
+		</section>
+
+		<section>
+			<h3>Variation of six-col: ⅓ + ⅔</h3>
+      <div class="row">
+        <div class="col col--1of3">
+          <p>
+            <code>col--1of3</code> and <code>col--2of6</code> are interchangeable.
+          </p>
+          <p>
+            2-(5-Chloro-2-phenoxyphenyl)hydrazine was converted to corresponding 3H-indole by Fischer method utilizing the isopropyl methyl ketone in acetic acid.
+          </p>
+        </div>
+
+        <div class="col col--2of3">
+          <p>
+            <code>col--2of3</code> and <code>col--4of6</code> are interchangeable.
+          </p>
+          <p>
+            2-(5-Chloro-2-phenoxyphenyl)hydrazine was converted to corresponding 3H-indole by Fischer method utilizing the isopropyl methyl ketone in acetic acid.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+			<h3>Variation of six-col: ⅚ + ⅙</h3>
+      <div class="row">
+        <div class="col col--5of6">
+          <p>
+            2-(5-Chloro-2-phenoxyphenyl)hydrazine was converted to corresponding 3H-indole by Fischer method utilizing the isopropyl methyl ketone in acetic acid. The reaction of 3H-indole with Vilsmeier-Haack reagent furnished aminomethylene malonaldehyde in excellent yield while the reactions of malonaldehyde with hydrazine, arylhydrazines, amines, cyanoacetamide and hydroxylamine hydrochloride, led to the corresponding pyrazole derivatives, enamines, cyanopyridone, and cyanoacetamide derivatives respectively.
+          </p>
+        </div>
+
+        <div class="col col--1of6">
+          <p>
+            This text is much, much, much shorter than the previous one.
+          </p>
+        </div>
+      </div>
+    </section>
+
+	</main>
+
+  <hr/>
+
+	<footer class="row">
+    <p class="col col--5of6"><small>This is the footer! We put credits & copyright & stuff here. The end.</small></p>
+    <p class="col col--1of6"><small>2019</small></p>
+	</footer>
+
+</body>
+
+</html>
