@@ -33,8 +33,6 @@ body {
   justify-content: center;
 }
 
-/* General col */
-
 .col {
   flex: 0 0 auto;
   padding: 0 var(--gutter);
@@ -46,7 +44,14 @@ body {
   padding: 0;
 }
 
-/* Four-column */
+.col--1of1,
+.col--2of2,
+.col--3of3,
+.col--4of4,
+.col--6of6 {
+  flex-basis: 100%;
+  max-width: 100%;
+}
 
 @media only screen and (min-width: 768px) {
   .col--1of4 {
@@ -54,34 +59,13 @@ body {
     max-width: 25%;
   }
 
-  .col--2of4 {
-    flex-basis: 50%;
-    max-width: 50%;
-  }
-
   .col--3of4 {
     flex-basis: 75%;
     max-width: 75%;
   }
-}
 
-.col--4of4 {
-  flex-basis: 100%;
-  max-width: 100%;
-}
-
-/* Six-column */
-
-.col--1of1,
-.col--2of2,
-.col--3of3,
-.col--6of6 {
-  flex-basis: 100%;
-  max-width: 100%;
-}
-
-@media only screen and (min-width: 768px) {
   .col--1of2,
+  .col--2of4,
   .col--3of6 {
     flex-basis: 50%;
     max-width: 50%;
